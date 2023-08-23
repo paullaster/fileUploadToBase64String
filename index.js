@@ -1,7 +1,8 @@
 const fileInput = document.getElementById('fileInput');
 
-fileInput.addEventListener("change", (e) => {
+fileInput.addEventListener("change", async (e) => {
     const file = fileInput.files[0];
-    console.log(file);
+    
+    const reader = new FileReader();
 
 });
