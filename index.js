@@ -6,7 +6,8 @@ fileInput.addEventListener("change", async (e) => {
     const reader = new FileReader();
 
     reader.addEventListener("load", () => {
-        console.log(reader.result);
+        const base64String = reader.result
+        console.log(base64String);
     });
     reader.readAsDataURL(file);
 });
