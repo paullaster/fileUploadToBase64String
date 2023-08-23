@@ -1,5 +1,5 @@
 const fileInput = document.getElementById('fileInput');
 
-fileInput.addEventListener("change", () => {
-    
-})
+fileInput.addEventListener("change", (e) => {
+    console.log(e.target.value);
+});
