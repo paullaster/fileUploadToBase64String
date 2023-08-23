@@ -5,4 +5,8 @@ fileInput.addEventListener("change", async (e) => {
     
     const reader = new FileReader();
 
+    reader.addEventListener("load", () => {
+
+    });
+
 });
