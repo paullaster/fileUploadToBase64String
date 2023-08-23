@@ -1,1 +1,1 @@
-const fileInput 
+const fileInput = document.getElementById('fileInput');
