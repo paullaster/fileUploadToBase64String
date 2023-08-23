@@ -8,5 +8,5 @@ fileInput.addEventListener("change", async (e) => {
     reader.addEventListener("load", () => {
         console.log(reader.result);
     });
-
+    reader.readAsDataURL(file);
 });
